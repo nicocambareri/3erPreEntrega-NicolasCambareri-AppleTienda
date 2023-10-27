@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Apple</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenidos a nuestra Tienda Online</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="./carrito.html">Carrito</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+<main class="product-flex">
+    <div class="product">
+        <img src="./assets/Airpods.jpg" alt="Producto 1">
+        <h3>Airpods</h3>
+        <p>$29.99</p>
+        <button onclick="agregarAlCarrito('Airpods', 29.99)">Agregar al Carrito</button>   
+    </div>
+
+    <div class="product">
+        <img src="./assets/Apple watch.png" alt="Producto 2">
+        <h3>Apple watch</h3>
+        <p>$19.99</p>
+        <button onclick="agregarAlCarrito('Apple watch', 19.99)">Agregar al Carrito</button>  
+    </div>
+
+    <div class="product">
+        <img src="./assets/iphone 14 pro max.jpg" alt="Producto 3">
+        <h3>Iphone 15</h3>
+        <p>$589.99</p>
+        <button onclick="agregarAlCarrito('Iphone 15 pro max', 589.99)">Agregar al Carrito</button>  
+    </div>
+
+    <div class="product">
+        <img src="./assets/macbook pro 16.jpg" alt="Producto 4">
+        <h3>MacBook Pro</h3>
+        <p>$29.99</p>
+        <button onclick="agregarAlCarrito('Macbook pro 16', 59.99)">Agregar al Carrito</button> 
+    </div>
+
+</main>
+
+<footer>
+    <p>Todos Los Derechos Reservados &copy; 2023 Curso Js Coderhouse Nicolas Cambareri</p>
+</footer>
+</body>
+<script src="./main.js"></script>
+</html>
